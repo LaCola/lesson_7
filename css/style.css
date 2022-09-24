@@ -1,0 +1,121 @@
+@font-face {
+   font-family: Lato;
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"),
+   url("../fonts/Lato-Regular.woff") format("woff");
+   font-display:swap;
+   font-style: normal;
+   font-weight: 400;
+}
+@font-face {
+   font-family: Lato;
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"),
+   url("../fonts/Lato-Bold.woff") format("woff");
+   font-display:swap;
+   font-style: normal;
+   font-weight: 700;
+}
+@font-face {
+   font-family: Lato;
+   src: url("../fonts/Lato-Black.woff2") format("woff2"),
+   url("../fonts/Lato-Black.woff") format("woff");
+   font-display:swap;
+   font-style: normal;
+   font-weight: 900;
+}
+
+body{
+   font-family: Lato;
+   /* font-weight: 400; */
+   line-height: 1.5;
+   font-size: 16px;
+   color: rgb(66, 69, 81);
+}
+img{
+   max-width: 100%;
+}
+[class*="__container"]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+.header {
+   background: rgb(151, 218, 235);
+   margin-bottom: 40px;
+   padding: 36px 0;
+}
+.header h1{
+   font-size: 46px;
+   font-weight: 900;
+   color: #1E212C;
+}
+
+
+.main__image {
+   overflow: hidden;
+border: 1px solid red;
+}
+.main__image2 {
+   max-height: 360px;
+   overflow: hidden;
+   margin-bottom: 60px;
+  
+   border: 1px solid rgb(8, 51, 100);
+   }
+
+.main__text {
+   background: url(../img/image2.jpg) left / 80px no-repeat, url(../img/qq1.png) 580px 465px / 200px no-repeat;
+margin-bottom: 24px;
+}
+.text-bold{
+font-weight: 700;
+font-size: 20px;
+color: #1E212C;
+margin-bottom: 24px;
+}
+.double-paragraph{
+margin-bottom: 48px;
+
+}
+.double-paragraph p{
+  font-weight: 400; 
+}
+.double-paragraph p:first-child{
+margin-bottom: 24px;
+font-weight: 400; 
+}
+.text-bold2{
+   font-weight: 700;
+   font-size: 20px;
+   color: #1E212C;
+  padding-left: 58px;
+  margin-bottom: 48px;
+}
+.text-middle{
+   margin-bottom: 24px;
+}
+
+.main__list{
+   margin-bottom: 24px;
+}
+.main__list li{
+   background: url(../img/Vector.svg) 0 5px no-repeat;
+   padding: 0 0 0 30px;
+}
+
+
+.footer {
+   background: rgba(192, 145, 240, 0.411);
+   padding: 20px 0;
+}
+.footer span{
+   display: inline-block;
+   font-weight: 700;
+}
+.footer a{
+   display: inline-block;
+   font-size: 14px;
+   color: #787A80;
+   border: 1px solid #4e5257;
+   border-radius: 4px;
+   padding: 5.5px 16px;
+   margin-left: 12px;
+}
